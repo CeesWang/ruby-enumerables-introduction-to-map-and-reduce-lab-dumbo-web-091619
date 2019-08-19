@@ -14,5 +14,4 @@ def map_to_double(array)
   array.length.times do |index| 
     map << array[index] * 2
   end
-  map
 end
