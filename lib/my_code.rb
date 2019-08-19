@@ -10,8 +10,7 @@ def map_to_no_change(array)
 end
 
 def map_to_double(array)
-  
   map = array.length.times do |index| 
-    array[index] *= array[index]
+    map[index] << array[index] * array[index]
   end
 end
