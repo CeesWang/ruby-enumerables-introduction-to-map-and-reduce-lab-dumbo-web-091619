@@ -2,7 +2,7 @@
 def map_to_negativize(array)
   map = []
   array.each do |item|
-    map << = item * -1
+    map << item * -1
   end
   map
 end
