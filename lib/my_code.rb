@@ -27,7 +27,7 @@ def map_to_square(array)
   map
 end
 
-def reduce_to_total(array, starting_point)
+def reduce_to_total(array, starting_point = 0)
   if starting_point >= array.length
     return nil
   else
