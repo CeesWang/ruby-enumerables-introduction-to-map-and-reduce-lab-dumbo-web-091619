@@ -40,7 +40,7 @@ end
 def reduce_to_all_true(array)
   bool = true
   array.each do |element| 
-    if element <= 0
+    if !element 
       return false
     end
   end
