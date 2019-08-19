@@ -8,3 +8,10 @@ end
 def map_to_no_change(array)
   array
 end
+
+def map_to_double(array)
+  
+  map = array.length.times do |index| {
+    array[]
+  }
+end
