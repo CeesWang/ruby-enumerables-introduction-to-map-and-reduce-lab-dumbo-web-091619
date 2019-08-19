@@ -28,6 +28,11 @@ def map_to_square(array)
 end
 
 def reduce_to_total(array, starting_point)
+  if starting_point >= array.length
+    return nil
+  else
+    map = []
+    
 end
 
 def reduce_to_all_true(array)
