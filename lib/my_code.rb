@@ -38,13 +38,12 @@ def reduce_to_total(array, starting_point = 0)
 end
 
 def reduce_to_all_true(array)
-  bool = true
   array.each do |element| 
     if !element 
       return false
     end
   end
-  bool
+  return true
 end
 
 def reduce_to_any_true(array)
