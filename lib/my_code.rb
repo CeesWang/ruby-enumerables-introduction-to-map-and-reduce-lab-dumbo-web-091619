@@ -18,3 +18,12 @@ def map_to_double(array)
   end
   map
 end
+
+def map_to_square(array)
+  map = []
+  array.length.times do |index| 
+    map << array[index] * array[index]
+  end
+  map
+end
+
