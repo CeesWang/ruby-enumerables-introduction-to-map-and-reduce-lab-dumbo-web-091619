@@ -11,6 +11,6 @@ end
 
 def map_to_double(array)
   map = array.length.times do |index| 
-    map[index] << array[index] * array[index]
+    map[index] = array[index] * array[index]
   end
 end
