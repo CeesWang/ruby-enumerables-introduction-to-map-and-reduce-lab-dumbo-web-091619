@@ -28,16 +28,12 @@ def map_to_square(array)
 end
 
 def reduce_to_total(array, starting_point = 0)
-  if starting_point >= array.length
-    return array[starting_point]
-  else
     total = 0
     index = starting_point
     while index < array.length do
       total += array[index] 
       index += 1
     end
-  end
     
 end
 
