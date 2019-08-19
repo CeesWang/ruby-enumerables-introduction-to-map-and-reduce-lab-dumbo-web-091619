@@ -29,7 +29,7 @@ end
 
 def reduce_to_total(array, starting_point = 0)
   if starting_point >= array.length
-    return nil
+    return array[starting_point]
   else
     total = 0
     index = starting_point
