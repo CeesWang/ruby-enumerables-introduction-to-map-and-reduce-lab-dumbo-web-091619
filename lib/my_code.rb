@@ -31,7 +31,13 @@ def reduce_to_total(array, starting_point)
   if starting_point >= array.length
     return nil
   else
-    map = []
+    total = 0
+    index = starting_point
+    while array.length < index do
+      total += array[index] 
+      index += 1
+    end
+  end
     
 end
 
