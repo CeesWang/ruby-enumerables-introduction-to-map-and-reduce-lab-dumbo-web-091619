@@ -28,13 +28,13 @@ def map_to_square(array)
 end
 
 def reduce_to_total(array, starting_point = 0)
-    total = 0
-    index = starting_point
+    total = starting_point
+    index = 0
     while index < array.length do
       total += array[index] 
       index += 1
     end
-    
+    total
 end
 
 def reduce_to_all_true(array)
