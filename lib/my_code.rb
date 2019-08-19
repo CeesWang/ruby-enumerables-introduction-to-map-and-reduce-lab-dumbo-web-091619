@@ -1,9 +1,7 @@
 # My Code here....
 def map_to_negativize(array)
-  index = 0
-  map = array.each do |item|
-    array[index]
-    index 
+  map = array.each_with_index do |item, index|
+    array[index] = item * -1
   end
   map
 end
